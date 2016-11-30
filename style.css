@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font: 76% arial, sans-serif;
+    background: #FAEBD7;
+}
+
+p {
+    margin: 0 10px 10px
+}
+
+div#header h1 {
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 10px;
+    background: #FAEBD7;
+    color: #696969
+}
+
+div#content p {
+    line-height: 1.4;
+    font-size: 15pt;
+    text-align: justify;
+}
+
+div#content1 p {
+    line-height: 1.4;
+    font-size: 12pt
+}
+
+div#content2 p {
+    line-height: 1.4;
+    font-size: 14pt
+}
+
+div#content2 li {
+    line-height: 1.4;
+    font-size: 12pt
+}
+
+div#content3 p {
+    line-height: 1.4;
+    font-size: 15pt
+}
+
+div#navigation {
+    font-size: 140%;
+    text-align: center;
+}
+
+div#content {
+    float: left;
+    width: 50%;
+}
+
+#content ul {
+    font-size: 15pt;
+}
+
+div#extra {
+    float: right;
+    width: 25%;
+}
+
+#extra img {
+    border-radius: 20px;
+    padding-right: 10px;
+}
+
+div#extra1 {
+    background: #FAEBD7;
+    font-size: 12.5pt
+}
+
+div#footer {
+    background: #333;
+    color: #FFF
+}
+
+div#footer p {
+    margin: 0;
+    padding: 5px 10px
+}
+
+div#footer1 {
+    background: #333;
+    color: #FFF
+}
+
+div#footer1 p {
+    margin: 0;
+    padding: 26px 52px;
+    font-size: 15px
+}
+
+div#footer1 li {
+    margin: 0;
+    padding: 6px 12px;
+    font-size: 14px
+}
+
+div#footer2 {
+    background: #333;
+    color: #FFF;
+    font-size: 14pt
+}
+
+div#footer2 p {
+    margin: 0;
+    padding: 6px 12px;
+    font-size: 15px
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+div#content1 {
+    margin: 0 25%;
+}
+
+div#content2 {
+    margin: 0 25%;
+}
+
+div#content3 {
+    margin: 0 25%;
+}
+
+div#content A {
+    text-decoration: none;
+    color: #0000CD
+}
+
+div#content A:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+div#content1 A {
+    text-decoration: none;
+    color: #0000CD
+}
+
+div#content1 A:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+div#content2 A {
+    text-decoration: none;
+    color: #0000CD
+}
+
+div#content2 A:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+div#content3 A {
+    text-decoration: none;
+    color: #0000CD
+}
+
+div#content3 A:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+div#content3 A {
+    text-decoration: none;
+    color: #0000CD
+}
+
+div#content3 A:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+div#navigation {
+    float: left;
+    width: 25%;
+}
+
+#form {
+    margin: 0 auto
+}
+
+div#extra {
+    float: left;
+    width: 25%;
+}
+
+div#extra1 {
+    float: left;
+    width: 25%;
+    font-size: 19px
+}
+
+div#footer {
+    clear: left;
+    width: 100%
+}
+
+div#footer1 {
+    clear: left;
+    width: 100%
+}
+
+div#footer2 {
+    clear: left;
+    width: 100%
+}
+
+div#container {
+    background: #FAEBD7
+}
+
+a.button9 {
+    position: relative;
+    display: inline-block;
+    color: #777674;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: rgba(255, 255, 255, .5) 1px 1px, rgba(100, 100, 100, .3) 3px 7px 3px;
+    user-select: none;
+    padding: 1em 2em;
+    outline: none;
+    border-radius: 3px / 100%;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .0) 30%, rgba(255, 255, 255, .8), rgba(255, 255, 255, .0) 70%), linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, .3)), linear-gradient(to right, rgba(125, 125, 125, 1), rgba(255, 255, 255, .9) 45%, rgba(125, 125, 125, .5)), linear-gradient(to right, rgba(125, 125, 125, 1), rgba(255, 255, 255, .9) 45%, rgba(125, 125, 125, .5)), linear-gradient(to right, rgba(223, 190, 170, 1), rgba(255, 255, 255, .9) 45%, rgba(223, 190, 170, .5)), linear-gradient(to right, rgba(223, 190, 170, 1), rgba(255, 255, 255, .9) 45%, rgba(223, 190, 170, .5));
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+    background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    box-shadow: rgba(0, 0, 0, .5) 3px 10px 10px -10px;
+    width: 100%;
+}
+
+a.button9:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+
+a.button9:active {
+    top: 1px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px;
+    text-decoration: none;
+    box-shadow: 0px 1px 3px #666666;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    text-shadow: 1px 1px 3px #666666;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ce1515), to(#8b0d0d));
+    background: -moz-linear-gradient( TOP, #ce1515, #8b0d0d);
+}
+
+#submit:hover {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#8b0d0d), to(#ce1515));
+    background: -moz-linear-gradient(top, #8b0d0d, #ce1515)
+}
+
+input[type=text],
+textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+}
+
+input[type=text]:focus,
+textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);
+}
